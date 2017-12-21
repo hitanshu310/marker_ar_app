@@ -1,0 +1,538 @@
+fileFormatVersion: 2
+guid: 782b1dc889876c346a70c73b5fb6f0d6
+timeCreated: 1512917590
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arm1_L
+    100002: arm1_R
+    100004: arm2_L
+    100006: arm2_R
+    100008: arm3_L
+    100010: arm3_R
+    100012: arm4_L
+    100014: arm4_R
+    100016: armat_dragon
+    100018: body1
+    100020: body2
+    100022: body3
+    100024: body4
+    100026: dragon
+    100028: //RootNode
+    100030: head
+    100032: leg1_L
+    100034: leg1_R
+    100036: leg2_L
+    100038: leg2_R
+    100040: leg3_L
+    100042: leg3_R
+    100044: leg4_L
+    100046: leg4_R
+    100048: neck
+    100050: rocks
+    100052: root
+    100054: spike
+    100056: tail1
+    100058: tail10
+    100060: tail11
+    100062: tail2
+    100064: tail3
+    100066: tail4
+    100068: tail5
+    100070: tail6
+    100072: tail7
+    100074: tail9
+    100076: wing1_L
+    100078: wing1_R
+    100080: wing2_L
+    100082: wing2_R
+    100084: wingtoe1_L
+    100086: wingtoe1_R
+    100088: wingtoe2_L
+    100090: wingtoe2_R
+    400000: arm1_L
+    400002: arm1_R
+    400004: arm2_L
+    400006: arm2_R
+    400008: arm3_L
+    400010: arm3_R
+    400012: arm4_L
+    400014: arm4_R
+    400016: armat_dragon
+    400018: body1
+    400020: body2
+    400022: body3
+    400024: body4
+    400026: dragon
+    400028: //RootNode
+    400030: head
+    400032: leg1_L
+    400034: leg1_R
+    400036: leg2_L
+    400038: leg2_R
+    400040: leg3_L
+    400042: leg3_R
+    400044: leg4_L
+    400046: leg4_R
+    400048: neck
+    400050: rocks
+    400052: root
+    400054: spike
+    400056: tail1
+    400058: tail10
+    400060: tail11
+    400062: tail2
+    400064: tail3
+    400066: tail4
+    400068: tail5
+    400070: tail6
+    400072: tail7
+    400074: tail9
+    400076: wing1_L
+    400078: wing1_R
+    400080: wing2_L
+    400082: wing2_R
+    400084: wingtoe1_L
+    400086: wingtoe1_R
+    400088: wingtoe2_L
+    400090: wingtoe2_R
+    2300000: rocks
+    3300000: rocks
+    4300000: rocks
+    4300002: dragon
+    7400000: Default Take
+    7400002: idle
+    7400004: test_action
+    9500000: //RootNode
+    13700000: dragon
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: -1
+      lastFrame: 107
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: armat_dragon
+        weight: 1
+      - path: armat_dragon/root
+        weight: 1
+      - path: armat_dragon/root/arm1_L
+        weight: 1
+      - path: armat_dragon/root/arm1_L/arm2_L
+        weight: 1
+      - path: armat_dragon/root/arm1_L/arm2_L/arm3_L
+        weight: 1
+      - path: armat_dragon/root/arm1_L/arm2_L/arm3_L/arm4_L
+        weight: 1
+      - path: armat_dragon/root/arm1_R
+        weight: 1
+      - path: armat_dragon/root/arm1_R/arm2_R
+        weight: 1
+      - path: armat_dragon/root/arm1_R/arm2_R/arm3_R
+        weight: 1
+      - path: armat_dragon/root/arm1_R/arm2_R/arm3_R/arm4_R
+        weight: 1
+      - path: armat_dragon/root/body1
+        weight: 1
+      - path: armat_dragon/root/body1/neck
+        weight: 1
+      - path: armat_dragon/root/body1/neck/head
+        weight: 1
+      - path: armat_dragon/root/body2
+        weight: 1
+      - path: armat_dragon/root/body2/body3
+        weight: 1
+      - path: armat_dragon/root/body2/body3/body4
+        weight: 1
+      - path: armat_dragon/root/body2/body3/body4/tail1
+        weight: 1
+      - path: armat_dragon/root/body2/body3/body4/tail1/tail2
+        weight: 1
+      - path: armat_dragon/root/body2/body3/body4/tail1/tail2/tail3
+        weight: 1
+      - path: armat_dragon/root/body2/body3/body4/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: armat_dragon/root/body2/body3/body4/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: armat_dragon/root/body2/body3/body4/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: armat_dragon/root/body2/body3/body4/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: armat_dragon/root/body2/body3/body4/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail9
+        weight: 1
+      - path: armat_dragon/root/body2/body3/body4/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail9/tail10
+        weight: 1
+      - path: armat_dragon/root/body2/body3/body4/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail9/tail10/tail11
+        weight: 1
+      - path: armat_dragon/root/body2/body3/body4/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail9/tail10/tail11/spike
+        weight: 1
+      - path: armat_dragon/root/body2/body3/leg1_L
+        weight: 1
+      - path: armat_dragon/root/body2/body3/leg1_L/leg2_L
+        weight: 1
+      - path: armat_dragon/root/body2/body3/leg1_L/leg2_L/leg3_L
+        weight: 1
+      - path: armat_dragon/root/body2/body3/leg1_L/leg2_L/leg3_L/leg4_L
+        weight: 1
+      - path: armat_dragon/root/body2/body3/leg1_R
+        weight: 1
+      - path: armat_dragon/root/body2/body3/leg1_R/leg2_R
+        weight: 1
+      - path: armat_dragon/root/body2/body3/leg1_R/leg2_R/leg3_R
+        weight: 1
+      - path: armat_dragon/root/body2/body3/leg1_R/leg2_R/leg3_R/leg4_R
+        weight: 1
+      - path: armat_dragon/root/wing1_L
+        weight: 1
+      - path: armat_dragon/root/wing1_L/wing2_L
+        weight: 1
+      - path: armat_dragon/root/wing1_L/wing2_L/wingtoe1_L
+        weight: 1
+      - path: armat_dragon/root/wing1_L/wing2_L/wingtoe2_L
+        weight: 1
+      - path: armat_dragon/root/wing1_R
+        weight: 1
+      - path: armat_dragon/root/wing1_R/wing2_R
+        weight: 1
+      - path: armat_dragon/root/wing1_R/wing2_R/wingtoe1_R
+        weight: 1
+      - path: armat_dragon/root/wing1_R/wing2_R/wingtoe2_R
+        weight: 1
+      - path: dragon
+        weight: 1
+      - path: rocks
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: idle
+      firstFrame: -1
+      lastFrame: 107
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: armat_dragon
+        weight: 1
+      - path: armat_dragon/root
+        weight: 1
+      - path: armat_dragon/root/arm1_L
+        weight: 1
+      - path: armat_dragon/root/arm1_L/arm2_L
+        weight: 1
+      - path: armat_dragon/root/arm1_L/arm2_L/arm3_L
+        weight: 1
+      - path: armat_dragon/root/arm1_L/arm2_L/arm3_L/arm4_L
+        weight: 1
+      - path: armat_dragon/root/arm1_R
+        weight: 1
+      - path: armat_dragon/root/arm1_R/arm2_R
+        weight: 1
+      - path: armat_dragon/root/arm1_R/arm2_R/arm3_R
+        weight: 1
+      - path: armat_dragon/root/arm1_R/arm2_R/arm3_R/arm4_R
+        weight: 1
+      - path: armat_dragon/root/body1
+        weight: 1
+      - path: armat_dragon/root/body1/neck
+        weight: 1
+      - path: armat_dragon/root/body1/neck/head
+        weight: 1
+      - path: armat_dragon/root/body2
+        weight: 1
+      - path: armat_dragon/root/body2/body3
+        weight: 1
+      - path: armat_dragon/root/body2/body3/body4
+        weight: 1
+      - path: armat_dragon/root/body2/body3/body4/tail1
+        weight: 1
+      - path: armat_dragon/root/body2/body3/body4/tail1/tail2
+        weight: 1
+      - path: armat_dragon/root/body2/body3/body4/tail1/tail2/tail3
+        weight: 1
+      - path: armat_dragon/root/body2/body3/body4/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: armat_dragon/root/body2/body3/body4/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: armat_dragon/root/body2/body3/body4/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: armat_dragon/root/body2/body3/body4/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: armat_dragon/root/body2/body3/body4/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail9
+        weight: 1
+      - path: armat_dragon/root/body2/body3/body4/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail9/tail10
+        weight: 1
+      - path: armat_dragon/root/body2/body3/body4/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail9/tail10/tail11
+        weight: 1
+      - path: armat_dragon/root/body2/body3/body4/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail9/tail10/tail11/spike
+        weight: 1
+      - path: armat_dragon/root/body2/body3/leg1_L
+        weight: 1
+      - path: armat_dragon/root/body2/body3/leg1_L/leg2_L
+        weight: 1
+      - path: armat_dragon/root/body2/body3/leg1_L/leg2_L/leg3_L
+        weight: 1
+      - path: armat_dragon/root/body2/body3/leg1_L/leg2_L/leg3_L/leg4_L
+        weight: 1
+      - path: armat_dragon/root/body2/body3/leg1_R
+        weight: 1
+      - path: armat_dragon/root/body2/body3/leg1_R/leg2_R
+        weight: 1
+      - path: armat_dragon/root/body2/body3/leg1_R/leg2_R/leg3_R
+        weight: 1
+      - path: armat_dragon/root/body2/body3/leg1_R/leg2_R/leg3_R/leg4_R
+        weight: 1
+      - path: armat_dragon/root/wing1_L
+        weight: 1
+      - path: armat_dragon/root/wing1_L/wing2_L
+        weight: 1
+      - path: armat_dragon/root/wing1_L/wing2_L/wingtoe1_L
+        weight: 1
+      - path: armat_dragon/root/wing1_L/wing2_L/wingtoe2_L
+        weight: 1
+      - path: armat_dragon/root/wing1_R
+        weight: 1
+      - path: armat_dragon/root/wing1_R/wing2_R
+        weight: 1
+      - path: armat_dragon/root/wing1_R/wing2_R/wingtoe1_R
+        weight: 1
+      - path: armat_dragon/root/wing1_R/wing2_R/wingtoe2_R
+        weight: 1
+      - path: dragon
+        weight: 1
+      - path: rocks
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: test_action
+      takeName: test_action
+      firstFrame: 0
+      lastFrame: 106
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: armat_dragon
+        weight: 1
+      - path: armat_dragon/root
+        weight: 1
+      - path: armat_dragon/root/arm1_L
+        weight: 1
+      - path: armat_dragon/root/arm1_L/arm2_L
+        weight: 1
+      - path: armat_dragon/root/arm1_L/arm2_L/arm3_L
+        weight: 1
+      - path: armat_dragon/root/arm1_L/arm2_L/arm3_L/arm4_L
+        weight: 1
+      - path: armat_dragon/root/arm1_R
+        weight: 1
+      - path: armat_dragon/root/arm1_R/arm2_R
+        weight: 1
+      - path: armat_dragon/root/arm1_R/arm2_R/arm3_R
+        weight: 1
+      - path: armat_dragon/root/arm1_R/arm2_R/arm3_R/arm4_R
+        weight: 1
+      - path: armat_dragon/root/body1
+        weight: 1
+      - path: armat_dragon/root/body1/neck
+        weight: 1
+      - path: armat_dragon/root/body1/neck/head
+        weight: 1
+      - path: armat_dragon/root/body2
+        weight: 1
+      - path: armat_dragon/root/body2/body3
+        weight: 1
+      - path: armat_dragon/root/body2/body3/body4
+        weight: 1
+      - path: armat_dragon/root/body2/body3/body4/tail1
+        weight: 1
+      - path: armat_dragon/root/body2/body3/body4/tail1/tail2
+        weight: 1
+      - path: armat_dragon/root/body2/body3/body4/tail1/tail2/tail3
+        weight: 1
+      - path: armat_dragon/root/body2/body3/body4/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: armat_dragon/root/body2/body3/body4/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: armat_dragon/root/body2/body3/body4/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: armat_dragon/root/body2/body3/body4/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: armat_dragon/root/body2/body3/body4/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail9
+        weight: 1
+      - path: armat_dragon/root/body2/body3/body4/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail9/tail10
+        weight: 1
+      - path: armat_dragon/root/body2/body3/body4/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail9/tail10/tail11
+        weight: 1
+      - path: armat_dragon/root/body2/body3/body4/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail9/tail10/tail11/spike
+        weight: 1
+      - path: armat_dragon/root/body2/body3/leg1_L
+        weight: 1
+      - path: armat_dragon/root/body2/body3/leg1_L/leg2_L
+        weight: 1
+      - path: armat_dragon/root/body2/body3/leg1_L/leg2_L/leg3_L
+        weight: 1
+      - path: armat_dragon/root/body2/body3/leg1_L/leg2_L/leg3_L/leg4_L
+        weight: 1
+      - path: armat_dragon/root/body2/body3/leg1_R
+        weight: 1
+      - path: armat_dragon/root/body2/body3/leg1_R/leg2_R
+        weight: 1
+      - path: armat_dragon/root/body2/body3/leg1_R/leg2_R/leg3_R
+        weight: 1
+      - path: armat_dragon/root/body2/body3/leg1_R/leg2_R/leg3_R/leg4_R
+        weight: 1
+      - path: armat_dragon/root/wing1_L
+        weight: 1
+      - path: armat_dragon/root/wing1_L/wing2_L
+        weight: 1
+      - path: armat_dragon/root/wing1_L/wing2_L/wingtoe1_L
+        weight: 1
+      - path: armat_dragon/root/wing1_L/wing2_L/wingtoe2_L
+        weight: 1
+      - path: armat_dragon/root/wing1_R
+        weight: 1
+      - path: armat_dragon/root/wing1_R/wing2_R
+        weight: 1
+      - path: armat_dragon/root/wing1_R/wing2_R/wingtoe1_R
+        weight: 1
+      - path: armat_dragon/root/wing1_R/wing2_R/wingtoe2_R
+        weight: 1
+      - path: dragon
+        weight: 1
+      - path: rocks
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
